@@ -52,6 +52,7 @@ import Approvals from "../pages/content/Approvals";
 import PurchaseOrders from "../pages/content/PurchaseOrders";
 import Invoices from "../pages/content/Invoices";
 import Reports from "../pages/content/Reports";
+import Comparison from "../pages/content/Comparison";
 
 const Approutes = () => {
   return (
@@ -70,6 +71,7 @@ const Approutes = () => {
         <Route path="/purchase-orders" element={<PurchaseOrders />} />
         <Route path="/invoices" element={<Invoices />} />
         <Route path="/reports" element={<Reports />} />
+        <Route path="/comparison" element={<Comparison />} />
       </Route>
     </Routes>
   );
