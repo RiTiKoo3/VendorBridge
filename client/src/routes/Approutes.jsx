@@ -41,6 +41,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Login from "../pages/authpages/Login";
+import Register from "../pages/authpages/Register";
 import Layout from "../layout/Layout";
 
 import Dashboard from "../pages/content/Dashboard";
@@ -57,6 +58,7 @@ const Approutes = () => {
     <Routes>
       {/* Login Page */}
       <Route path="/" element={<Login />} />
+      <Route path="/register" element={<Register />} />
 
       {/* Sidebar Layout */}
       <Route element={<Layout />}>
